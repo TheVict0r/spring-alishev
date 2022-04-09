@@ -4,7 +4,7 @@ public class MusicPlayer {
     private Music music;
 
     private String name;
-    private String volume;
+    private int volume;
 
     //IoC
     public MusicPlayer(Music music) {
@@ -27,11 +27,11 @@ public class MusicPlayer {
         this.name = name;
     }
 
-    public String getVolume() {
+    public int getVolume() {
         return volume;
     }
 
-    public void setVolume(String volume) {
+    public void setVolume(int volume) {
         this.volume = volume;
     }
 
